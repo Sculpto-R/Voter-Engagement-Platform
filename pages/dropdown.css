@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+#info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #ccc;
+}

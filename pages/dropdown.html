@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dropdown.css">
+    <title>State Voter Registration Info</title>
 </head>
+
 <body>
-    <div className="Dropdown-Contaienr">
-        <select name="main">
-            <option>States</option>
+    <div class="dropdown-container"> 
+        <label for="states">Select a state:</label>
+        <select id="states" name="main">
+            <option value=""></option>
         </select>
+        <div id="info"></div>
     </div>
+    
+    <script src="dropdown.js"></script>
 </body>
 </html>
